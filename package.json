@@ -1,0 +1,26 @@
+{
+  "name": "pipeline-triagem-materiais-notion",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Showcase de um pipeline auditavel para transformar acervos desestruturados em uma fila de triagem no Notion.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "demo": "node src/cli.mjs demo",
+    "test": "node --test",
+    "check": "node --check src/cli.mjs && node --test",
+    "enrich": "node src/cli.mjs enrich",
+    "prepare": "node src/cli.mjs prepare",
+    "sync": "node src/cli.mjs sync"
+  },
+  "keywords": [
+    "notion",
+    "human-in-the-loop",
+    "idempotency",
+    "data-pipeline",
+    "devrel"
+  ],
+  "license": "MIT"
+}

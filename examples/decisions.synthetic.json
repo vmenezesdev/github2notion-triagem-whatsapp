@@ -1,0 +1,32 @@
+[
+  {
+    "filename": "material-a.txt",
+    "group_id": "G001",
+    "discipline": "Disciplina Exemplo 1",
+    "term": "2026.1",
+    "assessment": "Lista de exercicios",
+    "reference_date": "2026-01-10",
+    "confidence": "alta",
+    "evidence": "A mensagem ancora nomeia a disciplina e descreve o tipo do conjunto."
+  },
+  {
+    "filename": "material-b.txt",
+    "group_id": "G001",
+    "discipline": "Disciplina Exemplo 1",
+    "term": "2026.1",
+    "assessment": "Lista de exercicios",
+    "reference_date": "2026-01-10",
+    "confidence": "alta",
+    "evidence": "A mensagem seguinte confirma que ambos os arquivos formam um unico grupo."
+  },
+  {
+    "filename": "material-c.txt",
+    "group_id": "G002",
+    "discipline": "Nao identificado",
+    "term": "Nao identificado",
+    "assessment": "Material nao classificado",
+    "reference_date": "2026-02-20",
+    "confidence": "baixa",
+    "evidence": "O anexo foi localizado, mas o contexto nao permite atribuir disciplina ou avaliacao."
+  }
+]

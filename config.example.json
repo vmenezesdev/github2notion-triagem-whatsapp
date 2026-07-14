@@ -1,0 +1,22 @@
+{
+  "notion": {
+    "apiVersion": "2026-03-11",
+    "dataSourceIdEnv": "NOTION_DATA_SOURCE_ID",
+    "disciplinesDataSourceIdEnv": "NOTION_DISCIPLINES_DATA_SOURCE_ID",
+    "properties": {
+      "title": "Nome do Material",
+      "files": "Arquivos e midia",
+      "referenceDate": "Data de Referencia",
+      "disciplineRelation": "Disciplina relacionada",
+      "materialType": "Que tipo de material e esse?",
+      "privacy": "Opcoes de privacidade"
+    },
+    "disciplineTitleProperty": "Nome"
+  },
+  "policy": {
+    "lowConfidencePrefix": "[BAIXA CONFIANCA]",
+    "maxAttempts": 6,
+    "maxBackoffMs": 30000,
+    "sameCauseCircuitBreaker": 3
+  }
+}

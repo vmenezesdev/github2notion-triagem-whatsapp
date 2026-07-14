@@ -1,0 +1,20 @@
+[
+  {
+    "timestamp": "2026-01-10T09:00:00-03:00",
+    "author": "Pessoa A",
+    "text": "Segue a lista de exercicios da disciplina Exemplo 1.",
+    "attachments": ["material-a.txt", "material-b.txt"]
+  },
+  {
+    "timestamp": "2026-01-10T09:01:00-03:00",
+    "author": "Pessoa B",
+    "text": "Os dois arquivos pertencem ao mesmo conjunto.",
+    "attachments": []
+  },
+  {
+    "timestamp": "2026-02-20T14:00:00-03:00",
+    "author": "Pessoa C",
+    "text": "Arquivo sem contexto suficiente para identificar a disciplina.",
+    "attachments": ["material-c.txt"]
+  }
+]
